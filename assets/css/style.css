@@ -1,0 +1,71 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem 0.5rem;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    
+}
+
+p {
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+li {
+    line-height: 1.5em;
+    list-style-type: none;
+}
+.pets {
+    border: 2px solid black;
+    padding: 1rem  0.3rem;
+}
+
+.pets > ul > li {
+    font-size: 0.8em;
+}
+
+.pets > ul > li > ul > li {
+    font-size: 0.8em;
+}
+
+.pets > ul > li > ul >li > ul > li{
+    font-size: 0.8em;
+    
+}
+
+.dog li {
+    padding-inline-start: em;
+}
+.dog li::before {
+    content: "🐶 ";
+}
+
+.cat li::before {
+    content: "🐱 ";
+}
+
+.parrot li::before {
+    content: "🦜 ";
+}
+
+.snake li::before {
+    content: "🐍 ";
+}
+
+.lizzard li::before {
+    content: "🦎 ";
+}
